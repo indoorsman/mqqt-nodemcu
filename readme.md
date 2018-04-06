@@ -31,7 +31,7 @@
 * https://learn.adafruit.com/diy-esp8266-home-security-with-lua-and-mqtt/programming-the-esp8266-with-lua
 * https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/using-nodemcu-lua
 
-## Chanels MQQT
+## Channels MQQT
 
 * /ledsON -> Receive as parameter the port number
 * /ledsOFF -> Receive as parameter the port number

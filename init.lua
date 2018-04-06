@@ -9,8 +9,8 @@ function connectWIFI()
     if (wifi.sta.status() ~= wifi.STA_CONNECTING) then
 
         wifi.setmode(wifi.STATION)
-        --wifi.sta.config("VIVO-1AEA","")
-        wifi.sta.config({ssid='VIVO-1AEA', pwd=''})
+        --wifi.sta.config("VIVO-1AEA","J609122547")
+        wifi.sta.config({ssid='VIVO-1AEA', pwd='J609122547'})
         wifi.sta.connect()
     end
     
